@@ -17,8 +17,8 @@ graph=tf.compat.v1.get_default_graph()
 
 
 
-model = load_model(r"C:\Users\Sree Ram\OneDrive\Desktop\IBM Project\fruit.h5")
-model1=load_model(r"C:\Users\Sree Ram\OneDrive\Desktop\IBM Project\vegetable.h5")
+model = load_model("fruitdata.h5")
+model1=load_model("vegetabledata.h5")
 
 
 @app.route('/')
